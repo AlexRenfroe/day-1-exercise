@@ -1,0 +1,65 @@
+header{
+    border-style: solid;
+    border-width: 1px;
+    border-color: goldenrod;
+}
+
+header ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+header li{
+    display: inline;
+    margin: 2em;
+}
+
+.disabled{
+    color: grey;
+}
+
+ul li:nth-child(9) a{
+    color: purple;
+}
+
+li a span{
+    color: yellow;
+}
+
+
+h4 + div div{
+    color: red;
+}
+
+div div + h4 + div{
+    color: blue;
+}
+
+
+.promo{
+    font-weight: bold;
+    color: gold;
+}
+
+.promo span{
+    color: gold;
+}
+
+input{
+    font-size: 25px;
+}
+
+section div h4 ~ h4{
+    background-color: blue;
+}
+
+.parent h4 + div > div:first-child + h4{
+    background-color: red;
+}
+
+
+
+.grandparent > h4{
+    border: 1px solid black;
+    border-radius: 5px;
+}
